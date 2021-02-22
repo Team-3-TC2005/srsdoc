@@ -20,7 +20,7 @@ ANKAKH = independiente en armenio
 _Table of content generated using VSCode plugin [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)_
 
 # Introduction
-Ankakh espera ser un videojuego incluyente para niñas y niños entre las edades de 9-19 años para romper los prejuicios de la dificultad de las carreras STEM y las mujeres en la ciencia.
+Ankakh espera ser un videojuego incluyente para niñas y niños entre las edades de 9-19 años para romper los prejuicios de la dificultad de las carreras STEAM y las mujeres en la ciencia.
 Al mostrar la vida de l@s científicos e ingenieros (trabajo y vida social) esperamos cambiar el prejuicio negativo de la sociedad sobre estas carreras.
 
 ## Purpose
@@ -28,7 +28,6 @@ El proposito de nuestro juego es romper el "cliche" en el cual se cree que l@s m
 
 ## Scope
 Ankakh un juego de toma de decisiones, en el que cual el personaje principal es manipulado por el usuario. Este podrá elegir desde la apariencia del personaje hasta las decisiones que tiene que hacer durante el día a día.  
-Describe the software being specified. Include benefits, objectives, and goals. This should relate to overall business goals, especially if teams outside of development will have access to the SRS
 
 ## Definitions and Acronyms
 Include any non-trivial definition or acronym used in the document.
@@ -38,7 +37,8 @@ El objetivo de Ankakh es enseñar la vida en un día de l@s ingenieros y cientí
 Queremos también atraer a las niñas con algo que estén familiarizadas y los juegos de este tipo son muy populares. Nos basamos pensando en juegos como "Episode" que son libros y en cada libro tienes una vida diferente con tu personaje, sin embargo estos juegos son solo de relaciones de noviazgo y nada más.
 
 ## User classes
-User classes and characteristics are critical. You’ll need to define who (different roles) is going to use the product and how. Don't forget to include each user needs.
+Este juego esta enfocado en niñas de 9-19 años, con el fin de impulsarlas a estudiar carreras STEAM (ciencias, ingeniería, matemáticas, tecnología y arte). No hay una clase en espeficífico, por lo tanto se busca llegar a la mayor cantidad de niñas y niños posibles. 
+Es importante recordar que es esencial tener un navegador actualizado. 
 
 ## Assumptions and Dependencies
 
@@ -55,7 +55,10 @@ User classes and characteristics are critical. You’ll need to define who (diff
 - Dependemos en Unity para la creacion del juego.
 
 # System Features and Requirements
-This is where you detail the specific requirements for building your product.
+- El rango de edad es de 9-19 años
+- Debe ser un juego inclusivo
+- Debe buscar relacionarse con un objetivo 2030
+- Fomentar carreras STEAM 
 
 ## Functional Requirements
 The functional requirements describe the services and functions of a system. Functional requirements must be precise and unambiguous.
@@ -70,13 +73,13 @@ En esta tabla describimos posibles historias o pensamientos de nuestros usuarios
 |4|Como adolescente, me gustaría que no sienta que el juego|está enfocado solo a niños pequeños y mi edad no encaja.|_Write here any additional consideration_|
 
 ## External Interface Requirements
-External interface requirements are types of functional requirements. They outline how your product will interface with other components or systems.
+En un futuro nos gustaria crear una conexión entre los usuarios, que puedan interactuar dentro del juego.
 
 There are several types of interfaces you may have requirements for, including:
-- User
-- Hardware
-- Software
-- Communications
+- User -> la plataforma debe ser visualmente atractiva y fácil de usar ya que estadiseñada para jovenes
+- Hardware -> en el juego se toman decisiones, por lo tanto es necesario un "mouse" para deslizarse por el juego y seleccionar la decisión elegida. Queremos agregarlse música, por o tanto el dispositivo debe contar con unas bocinas, al ser personaliazado el usuario elige el nombre del personaje de moso que un teclado es esencial, y por último una pantalla en la que se proyecte el juego.
+- Software -> html, c-sharp, udemy, visualStudio, gitHub, Wndows y Mac
+- Communications -> 
 
 ## Non-functional Requirements
 Non-functional requirements are restrictions on the system or the development process. Non-functional requirements can be more critical than functional ones. If they are not met, the system is useless!
