@@ -55,7 +55,10 @@ The functional requirements describe the services and functions of a system. Fun
 
 Include user stories, which are short descriptions of a feature, told from the perspective of one of your end user profiles. They are typically structured in the following fashion:
 
-> As a __[type of user]__, I want __[some goal]__ so that __[some reason]__.
+> Como una mujer, me gustaría que el juego llame mi atención para creer que yo también puedo meterme a estas carreras.
+> Como hombre, me gustaría que el juego también incluya mis gustos para poder también jugarlo sin el prejuicio que es "solo para niñas".
+> Como niñ@, me gustaría poder entender el juego para que pueda jugarlo en ese momento y no tener que esperar a crecer.
+> Como adolescente, me gustaría que no sienta que el juego está enfocado solo a niños pequeños y mi edad no encaja.
 
 You may want to use the following template table.
 
