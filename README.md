@@ -24,7 +24,7 @@ Ankakh espera ser un videojuego incluyente para niñas y niños entre las edades
 Al mostrar la vida de l@s científicos e ingenieros (trabajo y vida social) esperamos cambiar el prejuicio negativo de la sociedad sobre estas carreras.
 
 ## Purpose
-El proposito de nuestro juego es romper el "cliche" en el cual se cree que l@s mujeres/hombres no pueden llevar una vida social y una vida laboril exitosa. Demostrar que es posible no tener que elegir entre una de ellas
+El proposito de nuestro juego es romper el "cliche" en el cual se cree que l@s mujeres/hombres no pueden llevar una vida social y una vida laboril exitosa. Demostrar que es posible no tener que elegir entre una de ellas.
 
 ## Scope
 Ankakh un juego de toma de decisiones, en el que cual el personaje principal es manipulado por el usuario. Este podrá elegir desde la apariencia del personaje hasta las decisiones que tiene que hacer durante el día a día.  
