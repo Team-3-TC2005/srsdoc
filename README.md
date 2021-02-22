@@ -34,10 +34,8 @@ Describe the software being specified. Include benefits, objectives, and goals. 
 Include any non-trivial definition or acronym used in the document.
 
 # Overall Description
-Describe what you’re going to build. Is it an update to an existing product? Is it a new product? Is it an add-on to a product you’ve already created?
-blablabla
-
-These are important to describe upfront, so everyone knows what you’re building.
+El objetivo de Ankakh es enseñar la vida en un día de l@s ingenieros y científicos de alguna carrera STEAM, enseñando que estas personas son humanos y tienen una vida normal tanto en el trabajo y como en la parte social. A largo plazo nos gustaría lograr que el personaje viaje a todo el mundo y en cada país tenga una carrera diferente (dentro de las carreras STEAM) para que el usuario pueda experimentar la diversión de cada una de ellas.
+Queremos también atraer a las niñas con algo que estén familiarizadas y los juegos de este tipo son muy populares. Nos basamos pensando en juegos como "Episode" que son libros y en cada libro tienes una vida diferente con tu personaje, sin embargo estos juegos son solo de relaciones de noviazgo y nada más.
 
 ## User classes
 User classes and characteristics are critical. You’ll need to define who (different roles) is going to use the product and how. Don't forget to include each user needs.
