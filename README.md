@@ -42,11 +42,18 @@ These are important to describe upfront, so everyone knows what you’re buildin
 User classes and characteristics are critical. You’ll need to define who (different roles) is going to use the product and how. Don't forget to include each user needs.
 
 ## Assumptions and Dependencies
-There might be factors that impact your ability to fulfill the requirements outlined in this document. What are those factors?
 
-Are there any assumptions you’re making that could turn out to be false? You should include those here, as well.
+- Dependemos que las graficas utilizadas para crear el video juego se encuentren en la Unity Store o en OpenGameArt.org.
 
-Finally, you should note if your project is dependent on any external factors. This might include software components you’re reusing from another project.
+- Dependemos en que la organizacion STEAM no cambie los requisitos ya establecidos.
+
+- El proyecto tomara alrededor de 10 semanas para completar.
+
+- Dependemos que la organizacion STEAM colabore con nosotros en la creacion del proyecto.
+
+- Dependemos que con los conocimientos adquiridos en la clase podemos llegar MVP (Minimum Viable Product).
+
+- Dependemos en Unity para la creacion del juego.
 
 # System Features and Requirements
 This is where you detail the specific requirements for building your product.
