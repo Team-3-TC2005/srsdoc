@@ -22,7 +22,7 @@ _Table of content generated using VSCode plugin [Markdown TOC](https://marketpla
 # Introduction
 
 ## Purpose
-Set the expectation for the product you’re building. So, start by defining the purpose of your product.
+El proposito de nuestro juego es romper el "cliche" en el cual se cree que l@s mujeres/hombres no pueden llevar una vida social y una vida laboril exitosa. Demostrar que es posible no tener que elegir entre una de ellas
 
 ## Scope
 Describe the software being specified. Include benefits, objectives, and goals. This should relate to overall business goals, especially if teams outside of development will have access to the SRS
