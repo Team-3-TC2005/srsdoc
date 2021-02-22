@@ -60,15 +60,14 @@ This is where you detail the specific requirements for building your product.
 ## Functional Requirements
 The functional requirements describe the services and functions of a system. Functional requirements must be precise and unambiguous.
 
-Include user stories, which are short descriptions of a feature, told from the perspective of one of your end user profiles. They are typically structured in the following fashion:
-
-> As a __[type of user]__, I want __[some goal]__ so that __[some reason]__.
-
-You may want to use the following template table.
+En esta tabla describimos posibles historias o pensamientos de nuestros usuarios que podrían tener al usar el juego en su vida cotidiana.
 
 |Title|User story|Importance|Notes|
 |---|---|---|---|
-|_Short identifier_|_As a [type of user], I want [some goal] so that [some reason]_|_Must have_|_Write here any additional consideration_|
+|1|Como una mujer, me gustaría que el juego llame mi atención|para creer que yo también puedo meterme a estas carreras.|_Write here any additional consideration_|
+|2|Como hombre, me gustaría que el juego también incluya mis gustos|para poder también jugarlo sin el prejuicio que es "solo para niñas".|_Write here any additional consideration_|
+|3|Como niñ@, me gustaría poder entender el juego|para que pueda jugarlo en ese momento y no tener que esperar a crecer.|_Write here any additional consideration_|
+|4|Como adolescente, me gustaría que no sienta que el juego|está enfocado solo a niños pequeños y mi edad no encaja.|_Write here any additional consideration_|
 
 ## External Interface Requirements
 External interface requirements are types of functional requirements. They outline how your product will interface with other components or systems.
