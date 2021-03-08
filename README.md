@@ -82,9 +82,51 @@ There are several types of interfaces you may have requirements for, including:
 Non-functional requirements are restrictions on the system or the development process. Non-functional requirements can be more critical than functional ones. If they are not met, the system is useless!
 
 # Screens
-Identifying the individual screens (for an app), or pages (for a website) are where a product’s shape starts to become clear. They are a distillation of the user stories into a set of distinct sections that satisfy the needs and behaviors identified so far. The process of outlining an application’s screens may also highlight any requirements or considerations that have been overlooked up to this point.
 
-This has the dual purpose of both contributing to a more accurate vision of the product early on, and serving as a jumping-off point for the time when designers do get involved.
+- Main Menu
+
+    Esta escena mostrara el titulo de juego al igual que tres posibles opciones. Estas opciones serán: Jugar, Opciones y Salir. La opcion de jugar nos llevara a la escena 'Character Menu'. La opcion de opciones nos llevara a la escena 'Options Menu'. La opcion de salir nos sacara del juego.
+
+- Options Menu
+
+    Dentro de esta escena podremos ajustar el volumen de la musica del juego. Esto se realizara por medio de un slider interactivo que representara el volumen actual de la musica del juego. Tambien habra una opcion 'Back' la cual nos regresara a la escena 'Main Menu'.
+
+- Character Menu
+
+    En esta escena podra eleguir el contexto en el cual el juego se desarollara. Esto se hara con una lista horizontal de opciones (estas siendo las diferentes carreras STEAM). Esta seccion estara denominada 'carrera'. Al igual existira otra seccion con varias listas horizontales de opciones que serviran para eleguir el atuendo del personaje. A esta seccion estara denominada 'personaje'. Por ultimo existiran dos botones con las opciones de 'empezar' y 'regresar'. Al oprimir el boton de 'regresar' la escena cambiara a el menu principal (escena 'Main Menu'). Por el otro lado, al oprimir el boton de 'empezar' la escena cambiara a 'Desicion 1'.
+
+- Decision 1
+
+    De esta escena hasta la escena 'End Game' es considerada como el juego principal. Dicho esto el contexto de este cambiara de acuerdo a la carrera que haya eleguido el jugador. Dentro de las escenas denominadas 'Decision X' se encontraran con un cuadro de dialogos el cual concluira con dos opciones, las cuales dependiendo de la eleguida añadiran o quitaran puntos de un sistema de puntaje escondido el cual decidira la escena final.
+
+- Decision 2
+
+    Dentro de esta escena estara propuesta la opcion de continuar a las escenas denominadas 'Minigame X' o saltar a la escena 'Decision 4'.
+
+- Minigame Scene
+
+    Dentro de esta escena se explicara como funciona el minijuego por medio de cajas de dialogo.
+
+- Minigame
+
+    En esta escena se jugara el minijuego.
+
+- Minigame Post-Scene
+
+    Dentro de esta escena se mostrara el desempeño obtenido dentro del minijuego y se otorgara la recompenza apropiada.
+
+- Decision 3
+    
+    Dentro de esta escena se tendra la opcion de continuar a la escena 'Decision 4' o saltar a la escena 'End Game'.
+
+- Decision 4
+- End Game
+    
+    Dentro de esta se mostrara el final depenediendo del puntaje obtenido durante el juego. Existen cuatro posibles finales por cada contexto. Dichos finales reflejan el balance entre trabajo y la vida social que se demostro durante el juego.
+
+- Credits
+
+    En esta escena se mostraran los nombres de las personas que crearon la escena. Al terminar esta escena volveremos a la escena 'Main Menu'.
 
 ## Wireframes
 Wireframes are simple page layouts that outline the size and placement of elements, and features on a page. They are generally devoid of color, font styles, logos or any design elements.
