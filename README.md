@@ -80,7 +80,12 @@ There are several types of interfaces you may have requirements for, including:
 - Communications
 
 ## Non-functional Requirements
-Non-functional requirements are restrictions on the system or the development process. Non-functional requirements can be more critical than functional ones. If they are not met, the system is useless!
+
+ - El Video Juego se creara utilizando Unity.
+ - El Video Juego debera de promover las carreras STEAM.
+ - El Video Juego se debe accesar por medio de una pagina web.
+ - El Game Loop estara representado por un dia comun en la vida de un ingenier@.
+
 
 # Screens
 Identifying the individual screens (for an app), or pages (for a website) are where a product’s shape starts to become clear. They are a distillation of the user stories into a set of distinct sections that satisfy the needs and behaviors identified so far. The process of outlining an application’s screens may also highlight any requirements or considerations that have been overlooked up to this point.
