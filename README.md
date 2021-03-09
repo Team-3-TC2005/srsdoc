@@ -90,15 +90,6 @@ Identifying the individual screens (for an app), or pages (for a website) are wh
 This has the dual purpose of both contributing to a more accurate vision of the product early on, and serving as a jumping-off point for the time when designers do get involved.
 
 ## Wireframes
-Wireframes are simple page layouts that outline the size and placement of elements, and features on a page. They are generally devoid of color, font styles, logos or any design elements.
+Un wireframe nos ayuda a visualizar el tamaño y el acomodo de todos los elementos que habrá en la pantalla del juego, así mismo nos permite visualizar un poco mejor cómo se verá en realidad nuestro juego.
 
-Wireframing is probably the most time-consuming step of this process and for some simple projects, it may be overkill. For complex projects where serious design thinking needs to happen, wireframes are an indispensable tool.
 
-Here are some popular tools for wireframing:
-- https://marvelapp.com/  
-- https://balsamiq.com/ 
-- https://jetstrap.com/ 
-- https://www.fluidui.com/ 
-- https://ninjamock.com/ 
-- https://www.justinmind.com/ 
-- https://moqups.com/
