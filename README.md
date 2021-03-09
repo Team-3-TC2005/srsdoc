@@ -83,9 +83,11 @@ Non-functional requirements are restrictions on the system or the development pr
 
 # Screens
 
-- Main Menu
+- Menú Principal
 
-    Esta escena mostrara el titulo de juego al igual que tres posibles opciones. Estas opciones serán: Jugar, Opciones y Salir. La opcion de jugar nos llevara a la escena 'Character Menu'. La opcion de opciones nos llevara a la escena 'Options Menu'. La opcion de salir nos sacara del juego.
+    El menú principal será la primera escena en aparecer, ésta contendrá un menú que contendrá 3 opciones.
+
+    Esta escena mostrara el título de juego al igual que tres posibles opciones. Estas opciones serán: Jugar, Opciones y Salir. La opcion de jugar nos llevara a la escena 'Character Menu'. La opcion de opciones nos llevara a la escena 'Options Menu'. La opcion de salir nos sacara del juego.
 
 - Options Menu
 
