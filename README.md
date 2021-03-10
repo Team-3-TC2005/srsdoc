@@ -30,7 +30,13 @@ El proposito de nuestro juego es romper el "cliche" en el cual se cree que l@s m
 Ankakh un juego de toma de decisiones, en el que cual el personaje principal es manipulado por el usuario. Este podrá elegir desde la apariencia del personaje hasta las decisiones que tiene que hacer durante el día a día.  
 
 ## Definitions and Acronyms
-Include any non-trivial definition or acronym used in the document.
+- STEAM/STEM= Es una asociación sin fines de lucro que busca promover la enseñanza de la ciencia, ingeniería, tecnología, matemáticas y arte en los jovenes
+
+- Carreras STEAM= ingeniería, ciencias, matemáticas, tecnología y arte
+
+- Cliche= estereotipo
+
+- Agenda 2030= la ONU crea la Agenda 2030 como un plan a favor de las personas y el planeta
 
 # Overall Description
 El objetivo de Ankakh es enseñar la vida en un día de l@s ingenieros y científicos de alguna carrera STEAM, enseñando que estas personas son humanos y tienen una vida normal tanto en el trabajo y como en la parte social. A largo plazo nos gustaría lograr que el personaje viaje a todo el mundo y en cada país tenga una carrera diferente (dentro de las carreras STEAM) para que el usuario pueda experimentar la diversión de cada una de ellas.
