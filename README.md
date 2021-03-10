@@ -91,9 +91,54 @@ There are several types of interfaces you may have requirements for, including:
 
 
 # Screens
-Identifying the individual screens (for an app), or pages (for a website) are where a product’s shape starts to become clear. They are a distillation of the user stories into a set of distinct sections that satisfy the needs and behaviors identified so far. The process of outlining an application’s screens may also highlight any requirements or considerations that have been overlooked up to this point.
 
-This has the dual purpose of both contributing to a more accurate vision of the product early on, and serving as a jumping-off point for the time when designers do get involved.
+- Menú Principal
+
+    El menú principal será la primera escena en aparecer, ésta contendrá un menú que contendrá 3 opciones: Jugar, Opciones y Salir.La opción de jugar nos llevará a la escena 'Character Menu'. La opción de opciones nos llevará a la escena 'Options Menu'. La opción de salir nos sacará del juego.
+
+- Options Menu
+
+    Dentro de esta escena podremos ajustar el volumen de la música del juego. Esto se realizara por medio de un slider interactivo que representará el volumen actual de la música del juego. También habrá una opción 'Back' la cual nos regresará a la escena 'Main Menu'.
+
+- Character Menu
+
+    En esta escena podrá elegir el contexto (carrera elegida) en el cual el juego se desarollará. Esto se hará con una lista horizontal de opciones (éstas siendo las diferentes carreras STEAM disponibles). Esta sección estará denominada 'Carrera'. Al igual existirá otra sección con varias listas horizontales de opciones que servirán para elegir el atuendo del personaje. A esta sección estará denominada 'Personaje'. Por último existirán dos botones con las opciones de 'Empezar' y 'Regresar'. Al oprimir el botón de 'Regresar' la escena regresará al menu principal (escena 'Main Menu'). Por el otro lado, al oprimir el botón de 'Empezar' la escena cambiará a 'Decisión 1',y comenzará el juego.
+
+- Decisión 1
+
+    De esta escena hasta la escena 'End Game' es considerada como el juego principal. Dicho esto el contexto de este cambiará de acuerdo a la carrera que haya elegido el jugador. Dentro de las escenas denominadas 'Decisión X' se encontraran con un cuadro de diálogos el cual concluirá con dos posibles opciones, las cuales dependiendo de la elegida añadirán o quitaran puntos de un sistema de puntaje escondido el cual decidirá la escena final.
+
+- Decisión 2
+
+    Dentro de esta escena estará propuesta la opción de continuar a las escenas denominadas 'Minigame X' o saltar a la escena 'Decisión 4'.
+
+- Minigame Scene
+
+    Dentro de esta escena se explicará cómo funciona el minijuego por medio de cajas de diálogo.
+
+- Minigame
+
+    En esta escena se jugará el minijuego.
+
+- Minigame Post-Scene
+
+    Dentro de esta escena se mostrara el desempeño obtenido dentro del minijuego y se otorgara la recompensa apropiada.
+
+- Decision 3
+    
+    Dentro de esta escena se tendrá la opción de continuar a la escena 'Decisión 4' o saltar a la escena 'End Game'.
+
+- Decisión 4
+
+    Dentro de esta escena se tendrá la opción de continuar a la escena 'End Game'.
+    
+- End Game
+    
+    Dentro de ésta se mostrará el final dependiendo del puntaje obtenido durante el juego. Existen cuatro posibles finales por cada contexto. Dichos finales reflejan el balance entre trabajo y la vida social que se demostró durante el juego. Si el día se completa de manera buena, el usuario ganará monedas.
+
+- Credits
+
+    En esta escena se mostrarán los nombres de las personas que crearon la escena. Al terminar esta escena volveremos a la escena 'Main Menu'.
 
 ## Wireframes
 Wireframes are simple page layouts that outline the size and placement of elements, and features on a page. They are generally devoid of color, font styles, logos or any design elements.
