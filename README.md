@@ -61,16 +61,15 @@ Es importante recordar que es esencial tener un navegador actualizado.
 - Fomentar carreras STEAM 
 
 ## Functional Requirements
-The functional requirements describe the services and functions of a system. Functional requirements must be precise and unambiguous.
 
 En esta tabla describimos posibles historias o pensamientos de nuestros usuarios que podrían tener al usar el juego en su vida cotidiana.
 
-|Title|User story|Importance|Notes|
+|Título|Historia de usuario|Importancia|Notas|
 |---|---|---|---|
-|1|Como una mujer, me gustaría que el juego llame mi atención|para creer que yo también puedo meterme a estas carreras.|_Write here any additional consideration_|
-|2|Como hombre, me gustaría que el juego también incluya mis gustos|para poder también jugarlo sin el prejuicio que es "solo para niñas".|_Write here any additional consideration_|
-|3|Como niñ@, me gustaría poder entender el juego|para que pueda jugarlo en ese momento y no tener que esperar a crecer.|_Write here any additional consideration_|
-|4|Como adolescente, me gustaría que no sienta que el juego|está enfocado solo a niños pequeños y mi edad no encaja.|_Write here any additional consideration_|
+|1|Como una mujer, me gustaría que el juego llame mi atención|para creer que yo también puedo meterme a estas carreras.|De esta manera rompemos el prejuicio de las niñas en la ciencia.|
+|2|Como hombre, me gustaría que el juego también incluya mis gustos|para poder también jugarlo sin el prejuicio que es "solo para niñas".|Creamos en los niños pensamientos inclusivos.|
+|3|Como niñ@, me gustaría poder entender el juego|para que pueda jugarlo en ese momento y no tener que esperar a crecer.|El juego tendrá un amplio espectro y será posible para todos jugarlo.|
+|4|Como adolescente, me gustaría que no sienta que el juego|está enfocado solo a niños pequeños y mi edad no encaja.|El juego tendrá un amplio espectro y será posible para todos jugarlo.|
 
 ## External Interface Requirements
 En un futuro nos gustaria crear una conexión entre los usuarios, que puedan interactuar dentro del juego.
