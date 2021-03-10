@@ -74,7 +74,6 @@ There are several types of interfaces you may have requirements for, including:
 - User -> la plataforma debe ser visualmente atractiva y fácil de usar ya que estadiseñada para jovenes
 - Hardware -> en el juego se toman decisiones, por lo tanto es necesario un "mouse" para deslizarse por el juego y seleccionar la decisión elegida. Queremos agregarlse música, por o tanto el dispositivo debe contar con unas bocinas, al ser personaliazado el usuario elige el nombre del personaje de moso que un teclado es esencial, y por último una pantalla en la que se proyecte el juego.
 - Software -> html, c-sharp, udemy, visualStudio, gitHub, Wndows y Mac
-- Communications -> 
 
 ## Non-functional Requirements
 Non-functional requirements are restrictions on the system or the development process. Non-functional requirements can be more critical than functional ones. If they are not met, the system is useless!
