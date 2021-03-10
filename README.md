@@ -141,15 +141,20 @@ There are several types of interfaces you may have requirements for, including:
     En esta escena se mostrarán los nombres de las personas que crearon la escena. Al terminar esta escena volveremos a la escena 'Main Menu'.
 
 ## Wireframes
-Wireframes are simple page layouts that outline the size and placement of elements, and features on a page. They are generally devoid of color, font styles, logos or any design elements.
+Un wireframe nos ayuda a visualizar el tamaño y el acomodo de todos los elementos que habrá en la pantalla del juego, así mismo nos permite visualizar un poco mejor cómo se verá en realidad nuestro juego.
 
-Wireframing is probably the most time-consuming step of this process and for some simple projects, it may be overkill. For complex projects where serious design thinking needs to happen, wireframes are an indispensable tool.
+<img width="721" alt="pag1" src="https://user-images.githubusercontent.com/57368415/110400427-3bd35c80-803d-11eb-9d93-54491707d765.png">
 
-Here are some popular tools for wireframing:
-- https://marvelapp.com/  
-- https://balsamiq.com/ 
-- https://jetstrap.com/ 
-- https://www.fluidui.com/ 
-- https://ninjamock.com/ 
-- https://www.justinmind.com/ 
-- https://moqups.com/
+<img width="720" alt="pag2" src="https://user-images.githubusercontent.com/57368415/110400393-2cecaa00-803d-11eb-9e46-088a21845cc7.png">
+
+<img width="700" alt="pag3" src="https://user-images.githubusercontent.com/57368415/110400444-4130a700-803d-11eb-89d8-114ad2cf29a4.png">
+
+<img width="718" alt="pag4" src="https://user-images.githubusercontent.com/57368415/110400451-44c42e00-803d-11eb-817f-3f8929cf3987.png">
+
+<img width="718" alt="pag5" src="https://user-images.githubusercontent.com/57368415/110400458-47bf1e80-803d-11eb-9410-708aecdce4f9.png">
+
+<img width="720" alt="pag6" src="https://user-images.githubusercontent.com/57368415/110400462-4aba0f00-803d-11eb-9f18-e87590d41d89.png">
+
+<img width="721" alt="pag7" src="https://user-images.githubusercontent.com/57368415/110400470-4d1c6900-803d-11eb-9245-28487708da29.png">
+
+
