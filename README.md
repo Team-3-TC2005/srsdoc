@@ -51,7 +51,7 @@ Finally, you should note if your project is dependent on any external factors. T
 # System Features and Requirements
 - El rango de edad es de 9-19 años
 - Debe ser un juego inclusivo
-- Debe buscar relacionarse con un objetivo 2030
+- Debe buscar relacionarse con un objetivo de la Agenda 2030
 - Fomentar carreras STEAM 
 
 ## Functional Requirements
