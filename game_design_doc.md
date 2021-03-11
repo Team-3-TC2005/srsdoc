@@ -71,7 +71,7 @@ Se basará en una forma de narración. El jugador va a recibir opciones de las d
 
 
 ## Mechanics
-	Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de éstos serán completarlos en un tiempo determinado. Si no se alcanza el puntaje necesario no se completará el reto del día.
+Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de éstos serán completarlos en un tiempo determinado. Si no se alcanza el puntaje necesario no se completará el reto del día.
 	Los retos semanales se darán como algo opcional para el usuario, pero si los logra se le dará una recompensa monetaria con la cual podrá alcanzar nuevos niveles.
 	Tendremos 3 escenarios como base para todas las carreras: casa, laboratorio, lugar social (ejemplo: restaurante). Esos escenarios se irán adaptando de una manera sencilla de acuerdo a los artículos necesarios para cada carrera y para que el usuario se sienta en otro mundo.
 	Cada animación entre los escenarios será un video corto que el usuario no podrá controlar y que solo enseñará como el avatar llega de un lugar a otro.
@@ -174,7 +174,7 @@ What kinds of colors will you be using? Do you have a limited palette to work wi
 
 What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, specifically? Solid, thick outlines with flat hues? Non-black outlines with limited tints/shades? Emphasize smooth curvatures over sharp angles? Describe a set of general rules depicting your style here.
 
-	Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), are great for teaching the player how to play through trial and error, instead of scripting a lengthy tutorial. What kind of visual feedback are you going to use to let the player know they’re interacting with something? That they *can* interact with something?
+Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), are great for teaching the player how to play through trial and error, instead of scripting a lengthy tutorial. What kind of visual feedback are you going to use to let the player know they’re interacting with something? That they *can* interact with something?
 
 ## Graphics Needed
 
