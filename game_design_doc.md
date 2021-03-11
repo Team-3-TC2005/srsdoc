@@ -197,39 +197,22 @@ Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), a
 
 ## Graphics Needed
 
-1.	Characters
-    a.	Human-like
-        i.	Goblin (idle, walking, throwing)
-        ii.	Guard (idle, walking, stabbing)
-        iii.	Prisoner (walking, running)
-    b.	Other
-        i.	Wolf (idle, walking, running)
-        ii.	Giant Rat (idle, scurrying)
-2.	Blocks
-    a.	Dirt
-    b.	Dirt/Grass
-    c.	Stone Block
-    d.	Stone Bricks
-    e.	Tiled Floor
-    f.	Weathered Stone Block
-    g.	Weathered Stone Bricks
-3.	Ambient
-    a.	Tall Grass
-    b.	Rodent (idle, scurrying)
-    c.	Torch
-    d.	Armored Suit
-    e.	Chains (matching Weathered Stone Bricks)
-    f.	Blood stains (matching Weathered Stone Bricks)
-4.	Other
-    a.	Chest
-    b.	Door (matching Stone Bricks)
-    c.	Gate
-    d.	Button (matching Weathered Stone Bricks)
+1.Characters
+	a.Human-like (personalizable)
+	   i.Mujer: El usuario podrá elegir:
+		1.Color de pelo
+		2.Forma de la cara 
+		3.Ropa 
+	   ii.Hombre El usuario podrá elegir:
+		1.Color de pelo
+		2.Forma de la cara 
+		3.Ropa 
 
-_(example)_
+2.Background
+	a.Cuarto
+	b.Área de trabajo
+	c.Restaurantes
 
-_(Note : If you’re soloing you might not need to define this part, as you can just use the Derived_ 
-_Classes + Themes section as a reference. It’s up to you.)_
 
 # Ilustraciones
 
