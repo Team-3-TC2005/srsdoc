@@ -234,6 +234,8 @@ _Classes + Themes section as a reference. It’s up to you.)_
 # Ilustraciones
 
 ## Personajes
+![opcion1](https://user-images.githubusercontent.com/57368237/110866266-81389980-828a-11eb-9563-5459484d3ccb.png)
+![opcion2](https://user-images.githubusercontent.com/57368237/110866278-84cc2080-828a-11eb-9ab1-31fee75278de.png)
 
 
 ## Ambientes
