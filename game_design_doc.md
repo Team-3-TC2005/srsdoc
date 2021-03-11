@@ -231,6 +231,15 @@ _(example)_
 _(Note : If you’re soloing you might not need to define this part, as you can just use the Derived_ 
 _Classes + Themes section as a reference. It’s up to you.)_
 
+# Ilustraciones
+
+## Personajes
+
+
+## Ambientes
+![1](https://user-images.githubusercontent.com/57368415/110865832-d922d080-8289-11eb-9fae-5e396d941b5f.jpeg)
+
+
 
 # Sounds/Music
  
