@@ -180,47 +180,32 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 # Graphics
 
 ## Style Attributes
-What kinds of colors will you be using? Do you have a limited palette to work with? A post-processed HSV map/image? Consistency is key for immersion.
+- No hay una paleta de colores específica
+- El videojuego va a ser en 2D
+- El estilo va a ser “cute” y moderno
 
-What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, specifically? Solid, thick outlines with flat hues? Non-black outlines with limited tints/shades? Emphasize smooth curvatures over sharp angles? Describe a set of general rules depicting your style here.
-
-Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), are great for teaching the player how to play through trial and error, instead of scripting a lengthy tutorial. What kind of visual feedback are you going to use to let the player know they’re interacting with something? That they *can* interact with something?
 
 ## Graphics Needed
 
-1.	Characters
-    a.	Human-like
-        i.	Goblin (idle, walking, throwing)
-        ii.	Guard (idle, walking, stabbing)
-        iii.	Prisoner (walking, running)
-    b.	Other
-        i.	Wolf (idle, walking, running)
-        ii.	Giant Rat (idle, scurrying)
-2.	Blocks
-    a.	Dirt
-    b.	Dirt/Grass
-    c.	Stone Block
-    d.	Stone Bricks
-    e.	Tiled Floor
-    f.	Weathered Stone Block
-    g.	Weathered Stone Bricks
-3.	Ambient
-    a.	Tall Grass
-    b.	Rodent (idle, scurrying)
-    c.	Torch
-    d.	Armored Suit
-    e.	Chains (matching Weathered Stone Bricks)
-    f.	Blood stains (matching Weathered Stone Bricks)
-4.	Other
-    a.	Chest
-    b.	Door (matching Stone Bricks)
-    c.	Gate
-    d.	Button (matching Weathered Stone Bricks)
+1.	Personajes
+    a.	Humanos
+        i.	Mujer/Hombre: se podrá personalizar:
+	- Color de pelo
+	- Forma de la cara 
+	- Ropa
 
-_(example)_
+        i.	Hombre: se podrá personalizar:
+	- Color de pelo
+	- Forma de la cara 
+	- Ropa
 
-_(Note : If you’re soloing you might not need to define this part, as you can just use the Derived_ 
-_Classes + Themes section as a reference. It’s up to you.)_
+
+2.	Background
+    a.	Cuarto
+    b.	Área de “trabajo”
+    c.	Restaurantes
+    d.	Cocina
+    
 
 # Ilustraciones
 
