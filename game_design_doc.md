@@ -101,7 +101,7 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 			
 		3. Colores neutros
 
-	- Interactive
+	- Interactivo
 		
 		1. Computadora
 			 
@@ -117,13 +117,13 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 		
 	b. Objetos
 	
-	- Ambient
+	- Ambiente
 		
 		1. Químicos
 		2. Mecheros, regadera de emergencia, pipetas, fregadero
 		3. Tabla periódica
 			
-	- Interactive
+	- Interactivo
 		
 		1. Estaciones para diferentes experimentos
 		2. Vestuario para adentro del laboratorio
@@ -156,25 +156,24 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
  
 ## Abstract Classes / Components
 
-1. BasePhysics
-	- BasePlayer -> El personaje principal creado por el usuario
-	- BaseEnemy -> No hay
-	- BaseObject -> Dependiendo el minijuego
-2. BaseObstacle -> Los retos por minijuegos y retos opcionales semanales
-3. BaseInteractable -> Las dos opciones presentadas al usuario. En el laboratorio un objeto que al ser seleccionado despliega el juego. 
+	- Jugador base -> El personaje principal creado por el usuario
+	- Enemigos -> No hay
+	- Objeto base -> Dependiendo el minijuego
+1. Obstaculo base -> Los retos por minijuegos y retos opcionales semanales
+2. Base intercativa -> Las dos opciones presentadas al usuario. En el laboratorio un objeto que al ser seleccionado despliega el juego. 
 
 
 
 ## Derived Classes / Component Compositions
 
 1. Jugador base
-	- PlayerMain -> Personaje diseñado por el usuario con las opciones presentadas
-	- PlayerUnlockable -> A lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
+	- Jugador principal -> Personaje diseñado por el usuario con las opciones presentadas
+	- Features desbloqueables-> A lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
 2. Enemigo -> No hay
 3. Objeto Base -> Dependiendo el mimijuego
 	- Ingenieria Electrónica: cables, focos.
-	- PlayerMain -> Personaje diseñado por el usuario con las opciones presentadas
-	- PlayerUnlockable -> A lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
+	- Jugador principal -> Personaje diseñado por el usuario con las opciones presentadas
+	- Features desbloqueables -> A lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
  
 
 # Graphics
@@ -201,7 +200,7 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 	- Ropa
 
 
-2.	Background
+2.	Fondo
     - Cuarto
     - Área de “trabajo”
     - Restaurantes
