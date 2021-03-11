@@ -79,7 +79,6 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 
 
 # Level Design
- (Note : These sections can safely be skipped if they’re not relevant, or you’d rather go about it another way. For most games, at least one of them should be useful. But I’ll understand if you don’t want to use them. It’ll only hurt my feelings a little bit.)
 
 ## Themes
 
@@ -110,7 +109,6 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 
 
 
-_(example)_
 
 ## Game Flow
 
@@ -144,7 +142,6 @@ _(example)_
 3. BaseInteractable= las dos opciones presentadas al usuario. En el laboratorio un objeto que al ser seleccionado despliega el juego. 
 
 
-_(example)_ 
 
 ## Derived Classes / Component Compositions
 
@@ -165,7 +162,6 @@ BaseInteractable
 InteractableButton
 
 
-_(example)_
 
 # Graphics
 
@@ -207,10 +203,6 @@ Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), a
     c.	Gate
     d.	Button (matching Weathered Stone Bricks)
 
-_(example)_
-
-_(Note : If you’re soloing you might not need to define this part, as you can just use the Derived_ 
-_Classes + Themes section as a reference. It’s up to you.)_
 
 
 # Sounds/Music
@@ -238,8 +230,6 @@ Remember, auditory feedback should stand out from the music and other sound effe
     c.	Happy chime (extra life)
     d.	Sad chime (died)
 
-_(example)_
-
 ## Music Needed
 
 1.	Slow-paced, nerve-racking “forest” track
@@ -248,9 +238,7 @@ _(example)_
 4.	Happy ending credits track
 5.	Rick Astley’s hit #1 single “Never Gonna Give You Up”
  
-_(example)_
 
-_(Note : Again, if you’re soloing you might be able to / want to skip this section. It’s up to you.)_
 
 # Schedule
  
@@ -285,5 +273,5 @@ c.	mind the pacing, let the player play between lessons
 6.	design sounds
 7.	design music
 
-_(example)_
+
 
