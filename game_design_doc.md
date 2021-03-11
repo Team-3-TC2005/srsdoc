@@ -54,12 +54,15 @@ Se quiere dar el mensaje de que puede haber un balance en todo y lograr que los 
 
 
 1.Casa
-   a. Elegir vestuario
+   - Elegir vestuario
+
 2.Laboratorio
-   b. Hay un minijuego de las carreras STEAM
+   - Hay un minijuego de las carreras STEAM
+
 3.Restaurante
-   c. Aquí se verá el resultado del reto del día
-End Credits
+   - Aquí se verá el resultado del reto del día
+
+4.End Credits
 
 
 
@@ -154,28 +157,25 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 ## Abstract Classes / Components
 
 1. BasePhysics
-	a. BasePlayer= el personaje principal creado por el usuario
-	b. BaseEnemy= no hay
-	c. BaseObject= dependiendo el minijuego
-2. BaseObstacle= los retos por minijuegos y retos opcionales semanales
-3. BaseInteractable= las dos opciones presentadas al usuario. En el laboratorio un objeto que al ser seleccionado despliega el juego. 
+	- BasePlayer -> El personaje principal creado por el usuario
+	- BaseEnemy -> No hay
+	- BaseObject -> Dependiendo el minijuego
+2. BaseObstacle -> Los retos por minijuegos y retos opcionales semanales
+3. BaseInteractable -> Las dos opciones presentadas al usuario. En el laboratorio un objeto que al ser seleccionado despliega el juego. 
 
 
 
 ## Derived Classes / Component Compositions
 
 1. Jugador base
-	a. PlayerMain= personaje diseñado por el usuario con las opciones presentadas
-	b. PlayerUnlockable= a lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
-2. Enemigo= no hay
-3. Objeto Base= dependiendo el mimijuego
-	a. Ingenieria Electrónica: cables, focos.
-
-
-	a. PlayerMain -> Personaje diseñado por el usuario con las opciones presentadas
-	b. PlayerUnlockable -> A lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
-2. BaseObject 
-
+	- PlayerMain -> Personaje diseñado por el usuario con las opciones presentadas
+	- PlayerUnlockable -> A lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
+2. Enemigo -> No hay
+3. Objeto Base -> Dependiendo el mimijuego
+	- Ingenieria Electrónica: cables, focos.
+	- PlayerMain -> Personaje diseñado por el usuario con las opciones presentadas
+	- PlayerUnlockable -> A lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
+ 
 
 # Graphics
 
@@ -254,7 +254,6 @@ Remember, auditory feedback should stand out from the music and other sound effe
     c.	Happy chime (extra life)
     d.	Sad chime (died)
 
-_(example)_
 
 ## Music Needed
 
@@ -264,7 +263,6 @@ _(example)_
 4.	Happy ending credits track
 5.	Rick Astley’s hit #1 single “Never Gonna Give You Up”
  
-_(example)_
 
 _(Note : Again, if you’re soloing you might be able to / want to skip this section. It’s up to you.)_
 
@@ -274,30 +272,37 @@ _(Note : Again, if you’re soloing you might be able to / want to skip this sec
 
 
 1.	develop base classes
+
     a.	base entity
-        i.	base player
-        ii.	base enemy
-        iii.	base block
+    - base player
+    - base enemy
+    - base block
+
     b.	base app state
-        i.	game world
-        ii.	menu world
+    - game world
+    - menu world
 2.	develop player and basic block classes
+
     a.	physics / collisions
 3.	find some smooth controls/physics
 4.	develop other derived classes
+
     a.	blocks
-        i.	moving
-        ii.	falling
-        iii. breaking
-        iv.	cloud
+    - moving
+    - falling
+    - breaking
+    - cloud
     b.	enemies
-        i. soldier
-        ii.	rat
-        iii. etc.
+    - soldier
+    - rat
+    - etc
 5.	design levels
-a.	introduce motion/jumping
-b.	introduce throwing
-c.	mind the pacing, let the player play between lessons
+
+    a.	introduce motion/jumping
+
+    b.	introduce throwing
+    
+    c.	mind the pacing, let the player play between lessons
 6.	design sounds
 7.	design music
 
