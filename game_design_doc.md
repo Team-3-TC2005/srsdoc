@@ -52,7 +52,7 @@ Se quiere dar el mensaje de que puede haber un balance en todo y lograr que los 
  
 ## Screens
 
-```
+
 1.Casa
    a. Elegir vestuario
 2.Laboratorio
@@ -61,7 +61,7 @@ Se quiere dar el mensaje de que puede haber un balance en todo y lograr que los 
    c. Aquí se verá el resultado del reto del día
 End Credits
 
-```
+
 
 _(example)_
 
@@ -82,7 +82,7 @@ Se basará en una forma de narración. El jugador va a recibir opciones de las d
  (Note : These sections can safely be skipped if they’re not relevant, or you’d rather go about it another way. For most games, at least one of them should be useful. But I’ll understand if you don’t want to use them. It’ll only hurt my feelings a little bit.)
 
 ## Themes
-```
+
 1. Casa
 	a. Mood
 		i. Ambiente moderno, paz, cuarto de ensueño
@@ -108,12 +108,12 @@ Se basará en una forma de narración. El jugador va a recibir opciones de las d
 			2. Vestuario para adentro del laboratorio
 			3. Compañeros de trabajo
 
-```
+
 
 _(example)_
 
 ## Game Flow
-```
+
 1.	El jugador elige la carrera de su preferencia.
 2.	Al despertar el jugador elige el género y ropa de su personaje.
 3.	La primera decisión se tomará.
@@ -131,11 +131,11 @@ _(example)_
 - Se verá el resultado del puntaje.
 
 
-```
+
 # Development
  
 ## Abstract Classes / Components
-```
+
 1. BasePhysics
 	a. BasePlayer= el personaje principal creado por el usuario
 	b. BaseEnemy= no hay
@@ -143,11 +143,11 @@ _(example)_
 2. BaseObstacle= los retos por minijuegos y retos opcionales semanales
 3. BaseInteractable= las dos opciones presentadas al usuario. En el laboratorio un objeto que al ser seleccionado despliega el juego. 
 
-```
+
 _(example)_ 
 
 ## Derived Classes / Component Compositions
-```
+
 1. BasePlayer
 	a. PlayerMain= personaje diseñado por el usuario con las opciones presentadas
 	b. PlayerUnlockable= a lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
@@ -164,7 +164,7 @@ ObstacleGate (watches to see if certain buttons are pressed)
 BaseInteractable
 InteractableButton
 
-```
+
 _(example)_
 
 # Graphics
@@ -177,7 +177,7 @@ What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, spec
 	Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), are great for teaching the player how to play through trial and error, instead of scripting a lengthy tutorial. What kind of visual feedback are you going to use to let the player know they’re interacting with something? That they *can* interact with something?
 
 ## Graphics Needed
-```
+
 1.	Characters
     a.	Human-like
         i.	Goblin (idle, walking, throwing)
@@ -206,7 +206,7 @@ What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, spec
     b.	Door (matching Stone Bricks)
     c.	Gate
     d.	Button (matching Weathered Stone Bricks)
-```
+
 _(example)_
 
 _(Note : If you’re soloing you might not need to define this part, as you can just use the Derived_ 
@@ -223,7 +223,7 @@ Stylistically, what kind of sound effects are you looking for? Do you want to ex
 Remember, auditory feedback should stand out from the music and other sound effects so the player hears it well. Volume, panning, and frequency/pitch are all important aspects to consider in both music and sounds - so plan accordingly!
 
 ## Sounds Needed
-```
+
 1.	Effects
     a.	Soft Footsteps (dirt floor)
     b.	Sharper Footsteps (stone floor)
@@ -237,17 +237,17 @@ Remember, auditory feedback should stand out from the music and other sound effe
     b.	Shocked “Ooomph!” (attacked)
     c.	Happy chime (extra life)
     d.	Sad chime (died)
-```
+
 _(example)_
 
 ## Music Needed
-```
+
 1.	Slow-paced, nerve-racking “forest” track
 2.	Exciting “castle” track
 3.	Creepy, slow “dungeon” track
 4.	Happy ending credits track
 5.	Rick Astley’s hit #1 single “Never Gonna Give You Up”
-``` 
+ 
 _(example)_
 
 _(Note : Again, if you’re soloing you might be able to / want to skip this section. It’s up to you.)_
@@ -256,7 +256,7 @@ _(Note : Again, if you’re soloing you might be able to / want to skip this sec
  
 (what is a schedule, i don’t even. list is good enough, right? if not add some dates i guess)
 
-```
+
 1.	develop base classes
     a.	base entity
         i.	base player
@@ -284,6 +284,6 @@ b.	introduce throwing
 c.	mind the pacing, let the player play between lessons
 6.	design sounds
 7.	design music
-```
+
 _(example)_
 
