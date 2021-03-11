@@ -1,4 +1,4 @@
-# Game Name Here
+# Ankakh
 > Game Design Document
 
 # Table of Content
@@ -85,32 +85,51 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 
 
 	a. Mood
+	
+	
 		i. Ambiente moderno, paz, cuarto de ensueño
+		
+		
 	b. Objetos
+	
 		i. Ambiente
+		
 			1. Cama, closet, escritorio, espejo,baño
+
 			2. Luz de amanecer
+			
 			3. Colores neutros
+
 		ii. Interactive
+		
 			1. Computadora
+			 
 			2. Espejo
+			 
 			3. Cama
 2. Laboratorio
+
+
 	a. Mood
+	
 		i. Grande, blanco
+		
 	b. Objetos
+	
 		i. Ambient
+		
 			1. Químicos
 			2. Mecheros, regadera de emergencia, pipetas, fregadero
 			3. Tabla periódica
+			
 		ii. Interactive
+		
 			1. Estaciones para diferentes experimentos
 			2. Vestuario para adentro del laboratorio
 			3. Compañeros de trabajo
 
 
 
-_(example)_
 
 ## Game Flow
 
