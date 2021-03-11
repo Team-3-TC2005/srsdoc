@@ -193,18 +193,18 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 	- Color de pelo
 	- Forma de la cara 
 	- Ropa
-
-        i.	Hombre: se podrá personalizar:
+	
+	ii. Hombre: se podrá personalizar:
 	- Color de pelo
 	- Forma de la cara 
 	- Ropa
 
 
 2.	Background
-    a.	Cuarto
-    b.	Área de “trabajo”
-    c.	Restaurantes
-    d.	Cocina
+    - Cuarto
+    - Área de “trabajo”
+    - Restaurantes
+    - Cocina
     
 
 # Ilustraciones
