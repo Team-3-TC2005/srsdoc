@@ -188,6 +188,7 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 ## Graphics Needed
 
 1.	Personajes
+
     a.	Humanos
         i.	Mujer/Hombre: se podrá personalizar:
 	- Color de pelo
