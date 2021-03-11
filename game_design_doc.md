@@ -63,8 +63,6 @@ End Credits
 
 
 
-_(example)_
-
 ## Controls
 Se basará en una forma de narración. El jugador va a recibir opciones de las decisiones que hará el personaje durante el juego. También podrá jugar minijuegos dentro de los diferentes escenarios que se vayan presentando alrededor del día.
 	Sus decisiones determinarán el resultado final del reto del día, la oportunidad de ir subiendo de nivel en cada carrera, y viajar para probar carreras diferentes .
@@ -79,13 +77,15 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 
 
 # Level Design
- (Note : These sections can safely be skipped if they’re not relevant, or you’d rather go about it another way. For most games, at least one of them should be useful. But I’ll understand if you don’t want to use them. It’ll only hurt my feelings a little bit.)
+
 
 ## Themes
 
-[1. Casa]
-	[a. Mood]
-		[i. Ambiente moderno, paz, cuarto de ensueño]
+1. Casa
+
+
+	a. Mood
+		i. Ambiente moderno, paz, cuarto de ensueño
 	b. Objetos
 		i. Ambiente
 			1. Cama, closet, escritorio, espejo,baño
