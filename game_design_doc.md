@@ -164,7 +164,13 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 
 ## Derived Classes / Component Compositions
 
-1. BasePlayer
+1. Jugador base
+	a. PlayerMain= personaje diseñado por el usuario con las opciones presentadas
+	b. PlayerUnlockable= a lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
+2. Enemigo= no hay
+3. Objeto Base= dependiendo el mimijuego
+	a. Ingenieria Electrónica: cables, focos.
+
 
 	a. PlayerMain -> Personaje diseñado por el usuario con las opciones presentadas
 	b. PlayerUnlockable -> A lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
