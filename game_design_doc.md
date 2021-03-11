@@ -83,50 +83,48 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 
 1. Casa
 
-
 	a. Mood
-	
-	
-		i. Ambiente moderno, paz, cuarto de ensueño
+		    
+    -  Ambiente moderno, paz, cuarto de ensueño
 		
 		
 	b. Objetos
-	
-		i. Ambiente
-		
-			1. Cama, closet, escritorio, espejo,baño
 
-			2. Luz de amanecer
+	- Ambiente
+		
+		1. Cama, closet, escritorio, espejo,baño
+
+		2. Luz de amanecer
 			
-			3. Colores neutros
+		3. Colores neutros
 
-		ii. Interactive
+	- Interactive
 		
-			1. Computadora
+		1. Computadora
 			 
-			2. Espejo
+		2. Espejo
 			 
-			3. Cama
+		3. Cama
 2. Laboratorio
 
 
 	a. Mood
 	
-		i. Grande, blanco
+	- Grande, blanco
 		
 	b. Objetos
 	
-		i. Ambient
+	- Ambient
 		
-			1. Químicos
-			2. Mecheros, regadera de emergencia, pipetas, fregadero
-			3. Tabla periódica
+		1. Químicos
+		2. Mecheros, regadera de emergencia, pipetas, fregadero
+		3. Tabla periódica
 			
-		ii. Interactive
+	- Interactive
 		
-			1. Estaciones para diferentes experimentos
-			2. Vestuario para adentro del laboratorio
-			3. Compañeros de trabajo
+		1. Estaciones para diferentes experimentos
+		2. Vestuario para adentro del laboratorio
+		3. Compañeros de trabajo
 
 
 
@@ -163,28 +161,15 @@ Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de �
 3. BaseInteractable= las dos opciones presentadas al usuario. En el laboratorio un objeto que al ser seleccionado despliega el juego. 
 
 
-_(example)_ 
 
 ## Derived Classes / Component Compositions
 
 1. BasePlayer
-	a. PlayerMain= personaje diseñado por el usuario con las opciones presentadas
-	b. PlayerUnlockable= a lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
-2. BaseEnemy= no hay
-3. BaseObject
 
-ObjectChest (pick-up-able, throwable, spits gold coins with key)
-ObjectGoldCoin (cha-ching!)
-ObjectKey (pick-up-able, throwable)
-BaseObstacle
-ObstacleWindow (destroyed with rock)
-ObstacleWall
-ObstacleGate (watches to see if certain buttons are pressed)
-BaseInteractable
-InteractableButton
+	a. PlayerMain -> Personaje diseñado por el usuario con las opciones presentadas
+	b. PlayerUnlockable -> A lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
+2. BaseObject 
 
-
-_(example)_
 
 # Graphics
 
@@ -324,5 +309,4 @@ c.	mind the pacing, let the player play between lessons
 6.	design sounds
 7.	design music
 
-_(example)_
 
