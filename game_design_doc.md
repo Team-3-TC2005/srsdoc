@@ -31,121 +31,139 @@
 # Game Design
 
 ## Summary
-Sum up your game idea in 2 sentences. A kind of elevator pitch. Keep it simple!
+Demostrar que una persona, especialmente las mujeres, pueden llevar tanto una vida profesional exitosa como una vida social, en las carreras STEAM. Derrumbar el “cliché” sobre las mujeres en estas carreras y mostrarle a los usuarios que pueden lograr los retos de trabajar en estas profesiones.
 
 ## Gameplay
-What should the gameplay be like? What is the goal of the game, and what kind of obstacles are in 
-the way? What tactics should the player use to overcome them?
+El objetivo del juego es que el usuario tome decisiones sobre la vida del personaje, este llevará una vida social y una vida profesional en una carrera STEAM y podrán divertirse en lugares científicos, por ejemplo un laboratorio. 
+	La misión del usuario será completar un día de trabajo en el que tendrá que cumplir el reto dado al final del día, dependerá de su puntuación en los minijuegos presentados a lo largo de ese “día” el resultado final del reto presentado. Ejemplo: 
+Ingeniería civil: el reto dado será construir un edificio, dependerá de las decisiones del usuario si el edificio es completado con éxito o se derrumba.
+	Los obstáculos del juego se dividen en dos, los presentados en el minijuego y “tentaciones” que recibirá el personaje, por ejemplo ir a comer, etc. 
+	Los minijuegos tendrán que ser completados para ganar monedas y decidir el resultado final. Cada laboratorio dependerá de la carrera escogida y cada carrera estará en un país determinado al que se podrá viajar cuando el usuario tenga las suficientes monedas para desbloquearlo.
+	Al principio del juego el usuario escogerá el género, carrera y “look” del avatar que usará en el juego, conforme el juego avance con las monedas ganadas a través del juego podrá ampliar la selección de “estilos”. 
+
 
 ## Mindset
-What kind of mindset do you want to provoke in the player? Do you want them to feel powerful, or 
-weak? Adventurous, or nervous? Hurried, or calm? How do you intend to provoke those emotions?
+Los sentimientos que queremos provocar con este juego son los de empoderamiento, ya que buscamos que el usuario se dé cuenta que puedes tener “lo mejor de dos mundos”.  
+	Los usuarios podrán identificarse con el sentimiento de su avatar al final del día y esa será su motivación para completar cada reto de la mejor manera posible, la satisfacción que tendrán con cada reto completado con éxito los animará a saber que lo pueden lograr y querrán probar escenarios en otras carreras.
+Se quiere dar el mensaje de que puede haber un balance en todo y lograr que los usuarios lo experimenten con su propio avatar.
+
 
 # Technical
  
 ## Screens
 
 ```
-1. Title Screen
-    a. Options
-2. Level Select
-3. Game
-    a. Inventory
-    b. Assessment / Next Level
-4. End Credits
+1.Casa
+   a. Elegir vestuario
+2.Laboratorio
+   b. Hay un minijuego de las carreras STEAM
+3.Restaurante
+   c. Aquí se verá el resultado del reto del día
+End Credits
+
 ```
 
 _(example)_
 
 ## Controls
-How will the player interact with the game? Will they be able to choose the controls? What kind of 
-in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
+Se basará en una forma de narración. El jugador va a recibir opciones de las decisiones que hará el personaje durante el juego. También podrá jugar minijuegos dentro de los diferentes escenarios que se vayan presentando alrededor del día.
+	Sus decisiones determinarán el resultado final del reto del día, la oportunidad de ir subiendo de nivel en cada carrera, y viajar para probar carreras diferentes .
+
 
 ## Mechanics
-Are there any interesting mechanics? If so, how are you going to accomplish them? Physics, 
-algorithms, etc.
+	Dependerá del nivel la dificultad en cada minijuego, los “obstáculos” de éstos serán completarlos en un tiempo determinado. Si no se alcanza el puntaje necesario no se completará el reto del día.
+	Los retos semanales se darán como algo opcional para el usuario, pero si los logra se le dará una recompensa monetaria con la cual podrá alcanzar nuevos niveles.
+	Tendremos 3 escenarios como base para todas las carreras: casa, laboratorio, lugar social (ejemplo: restaurante). Esos escenarios se irán adaptando de una manera sencilla de acuerdo a los artículos necesarios para cada carrera y para que el usuario se sienta en otro mundo.
+	Cada animación entre los escenarios será un video corto que el usuario no podrá controlar y que solo enseñará como el avatar llega de un lugar a otro.
+	Las decisiones que tomará el personaje serán a) ó b) y con eso podremos determinar el final de su día. Habrá 4 posibles finales basándonos en cuántas decisiones a) y b) tomó el usuario.
+
 
 # Level Design
  (Note : These sections can safely be skipped if they’re not relevant, or you’d rather go about it another way. For most games, at least one of them should be useful. But I’ll understand if you don’t want to use them. It’ll only hurt my feelings a little bit.)
 
 ## Themes
 ```
-1.	Forest
-    a.	Mood
-        i.	Dark, calm, foreboding
-    b.	Objects
-        i.	Ambient
-            1.	Fireflies
-            2.	Beams of moonlight
-            3.	Tall grass
-        ii.	Interactive
-            1.	Wolves
-            2.	Goblins
-            3.	Rocks
-2.	Castle
-    a.	Mood
-        i.	Dangerous, tense, active
-    b.	Objects
-        i.	Ambient
-            1.	Rodents
-            2.	Torches
-            3.	Suits of armor
-        ii.	Interactive
-            1.	Guards
-            2.	Giant rats
-            3.	Chests
+1. Casa
+	a. Mood
+		i. Ambiente moderno, paz, cuarto de ensueño
+	b. Objetos
+		i. Ambiente
+			1. Cama, closet, escritorio, espejo,baño
+			2. Luz de amanecer
+			3. Colores neutros
+		ii. Interactive
+			1. Computadora
+			2. Espejo
+			3. Cama
+2. Laboratorio
+	a. Mood
+		i. Grande, blanco
+	b. Objetos
+		i. Ambient
+			1. Químicos
+			2. Mecheros, regadera de emergencia, pipetas, fregadero
+			3. Tabla periódica
+		ii. Interactive
+			1. Estaciones para diferentes experimentos
+			2. Vestuario para adentro del laboratorio
+			3. Compañeros de trabajo
+
 ```
 
 _(example)_
 
 ## Game Flow
 ```
-1.	Player starts in forest
-2.	Pond to the left, must move right
-3.	To the right is a hill, player jumps to traverse it (“jump” taught)
-4.	Player encounters castle - door’s shut and locked
-5.	There’s a window within jump height, and a rock on the ground
-6.	Player picks up rock and throws at glass (“throw” taught)
-7.	… etc.
+1.	El jugador elige la carrera de su preferencia.
+2.	Al despertar el jugador elige el género y ropa de su personaje.
+3.	La primera decisión se tomará.
+4.	La segunda decisión se tomará.
+5.	Si el jugador lo elige, puede ir a trabajar a su laboratorio en donde dependiendo de la carrera que eligió podrá jugar un minijuego relacionado a dicha carrera.
+6.	En el minijuego el jugador tendrá un objetivo que cumplir y dependiendo de su desempeño se le otorgara un puntuación. 
+7.	Al salir del trabajo el jugador puede decidir si ir con sus amigos o ir a su casa
+8.	Dependiendo la decisión la combinación de las decisiones tomadas durante el día se mostrará uno de 4 posibles finales. 
+
+
+- Al despertar el jugador elige el género y ropa de su personaje.
+- El jugador podrá decidir la carrera en la que quiere jugar.
+- El usuario irá a su laboratorio donde encontrará el minijuego del día.
+- Al completar el juego se ganarán monedas.
+- Se verá el resultado del puntaje.
+
+
 ```
-(example)
-
-
 # Development
  
 ## Abstract Classes / Components
 ```
-1.	BasePhysics
-    a.	BasePlayer
-    b.	BaseEnemy
-    c.	BaseObject
-2.	BaseObstacle
-3.	BaseInteractable
+1. BasePhysics
+	a. BasePlayer= el personaje principal creado por el usuario
+	b. BaseEnemy= no hay
+	c. BaseObject= dependiendo el minijuego
+2. BaseObstacle= los retos por minijuegos y retos opcionales semanales
+3. BaseInteractable= las dos opciones presentadas al usuario. En el laboratorio un objeto que al ser seleccionado despliega el juego. 
+
 ```
 _(example)_ 
 
 ## Derived Classes / Component Compositions
 ```
-1.	BasePlayer
-    a.	PlayerMain
-    b.	PlayerUnlockable
-2.	BaseEnemy
-    a.	EnemyWolf
-    b.	EnemyGoblin
-    c.	EnemyGuard (may drop key)
-    d.	EnemyGiantRat
-    e.	EnemyPrisoner
-3.	BaseObject
-    a.	ObjectRock (pick-up-able, throwable)
-    b.	ObjectChest (pick-up-able, throwable, spits gold coins with key)
-    c.	ObjectGoldCoin (cha-ching!)
-    d.	ObjectKey (pick-up-able, throwable)
-4.	BaseObstacle
-    a.	ObstacleWindow (destroyed with rock)
-    b.	ObstacleWall
-    c.	ObstacleGate (watches to see if certain buttons are pressed)
-5.	BaseInteractable
-    a.	InteractableButton
+1. BasePlayer
+	a. PlayerMain= personaje diseñado por el usuario con las opciones presentadas
+	b. PlayerUnlockable= a lo largo de los minijuegos el usuario va ganando monedas con las cuales puede desbloquear más opciones de personalizado
+2. BaseEnemy= no hay
+3. BaseObject
+
+ObjectChest (pick-up-able, throwable, spits gold coins with key)
+ObjectGoldCoin (cha-ching!)
+ObjectKey (pick-up-able, throwable)
+BaseObstacle
+ObstacleWindow (destroyed with rock)
+ObstacleWall
+ObstacleGate (watches to see if certain buttons are pressed)
+BaseInteractable
+InteractableButton
+
 ```
 _(example)_
 
