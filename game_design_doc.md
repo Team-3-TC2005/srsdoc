@@ -239,6 +239,15 @@ _Classes + Themes section as a reference. It’s up to you.)_
 ## Ambientes
 ![1](https://user-images.githubusercontent.com/57368415/110865832-d922d080-8289-11eb-9fae-5e396d941b5f.jpeg)
 
+![2](https://user-images.githubusercontent.com/57368415/110865984-14bd9a80-828a-11eb-9423-c1f58c1562c3.jpeg)
+
+![3](https://user-images.githubusercontent.com/57368415/110865990-18512180-828a-11eb-8356-7d20aca76e83.jpeg)
+
+![4](https://user-images.githubusercontent.com/57368415/110866001-1b4c1200-828a-11eb-9959-bf270970efd3.jpeg)
+
+![5](https://user-images.githubusercontent.com/57368415/110866007-1dae6c00-828a-11eb-9aa6-0ccca5a06014.jpeg)
+
+
 
 
 # Sounds/Music
