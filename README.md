@@ -1,5 +1,5 @@
-# SOFTWARE SPECIFICATION TEMPLATES
-> Change the above title with the name of your project.
+# ANKAKH SOFTWARE SPECIFICATION 
+> Ximena Gonzalez, Carolina Ortega, Mateo Gonzalez
 
 | Document | Purpose |
 | -------  | ------- |
