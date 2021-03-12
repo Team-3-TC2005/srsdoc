@@ -11,7 +11,7 @@
 
 
 ## Subsystem Use Case Model -> Kiosk Check-In
-<img width="323" alt="Screen Shot 2021-03-12 at 8 11 30" src="https://user-images.githubusercontent.com/57368415/110951435-aa007380-830a-11eb-938b-b912ec546ef4.png">
+![da95c2a9-0c93-4266-80e8-18ffa91c2b77](https://user-images.githubusercontent.com/57368415/110951609-e46a1080-830a-11eb-8ffc-a92b76054ed8.jpg)
 
 
 ## Activity Diagram -> Kiosk Check-In System Use Case
